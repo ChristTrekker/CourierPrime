@@ -1,78 +1,274 @@
-# Prefix: Languagesystems
-# automatic
 languagesystem DFLT dflt;
 languagesystem grek dflt;
+languagesystem latn CAT ;
 languagesystem latn dflt;
-languagesystem latn ROM;
-languagesystem latn MOL;
-languagesystem latn CAT;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
 
-# automatic
-@Uppercase = [ A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Eng Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent Delta Omega ];
 
-feature aalt {
-# automatic
-feature locl;
-feature sups;
-feature frac;
-feature ordn;
-feature case;
-} aalt;
+# GSUB 
+
+
+lookup loclLocalizedFormsinLatinlookup {
+  lookupflag 0;
+    sub \Scedilla by \Scommaaccent ;
+    sub \Tcedilla by \Tcommaaccent ;
+    sub \scedilla by \scommaaccent ;
+    sub \tcedilla by \tcommaaccent ;
+} loclLocalizedFormsinLatinlookup;
+
+lookup sub_single_locllatn_0 {
+  lookupflag 0;
+    sub \Scedilla by \Scommaaccent ;
+    sub \Tcedilla by \Tcommaaccent ;
+    sub \scedilla by \scommaaccent ;
+    sub \tcedilla by \tcommaaccent ;
+} sub_single_locllatn_0;
+
+lookup sub_chain_locllatn_0 {
+  lookupflag 0;
+    sub  \l' \periodcentered' \l   by \ldot ;
+    sub  \L' \periodcentered' \L   by \Ldot ;
+} sub_chain_locllatn_0;
+
+lookup supsSuperscriptlookup5 {
+  lookupflag 0;
+    sub \four by \foursuperior ;
+    sub \one by \onesuperior ;
+    sub \three by \threesuperior ;
+    sub \two by \twosuperior ;
+} supsSuperscriptlookup5;
+
+lookup fracDiagonalFractionslookup6 {
+  lookupflag 0;
+    sub \one \slash \two  by \onehalf;
+    sub \one \slash \four  by \onequarter;
+    sub \three \slash \four  by \threequarters;
+} fracDiagonalFractionslookup6;
+
+lookup ordnOrdinalslookup7 {
+  lookupflag 0;
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\A \a ]'  by [\ordfeminine \ordfeminine ];
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\O \o ]'  by [\ordmasculine \ordmasculine ];
+} ordnOrdinalslookup7;
+
+lookup caseCaseSensitiveFormslookup10 {
+  lookupflag 0;
+    sub \acute by \acute.case ;
+    sub \breve by \breve.case ;
+    sub \caron by \caron.case ;
+    sub \cedilla by \cedilla.case ;
+    sub \circumflex by \circumflex.case ;
+    sub \commaaccent by \commaaccent.case ;
+    sub \dieresis by \dieresis.case ;
+    sub \dotaccent by \dotaccent.case ;
+    sub \grave by \grave.case ;
+    sub \hungarumlaut by \hungarumlaut.case ;
+    sub \macron by \macron.case ;
+    sub \ogonek by \ogonek.case ;
+    sub \ring by \ring.case ;
+    sub \tilde by \tilde.case ;
+} caseCaseSensitiveFormslookup10;
 
 feature locl {
-# automatic
-script latn;
-language ROM;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-sub Tcedilla by Tcommaaccent;
-sub tcedilla by tcommaaccent;
-language MOL;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-sub Tcedilla by Tcommaaccent;
-sub tcedilla by tcommaaccent;
-language CAT;
-sub  l' periodcentered' l by ldot;
-sub  L' periodcentered' L by Ldot;
+
+ script latn;
+     language dflt ;
+      lookup loclLocalizedFormsinLatinlookup;
+      lookup sub_single_locllatn_0;
+      lookup sub_chain_locllatn_0;
+     language CAT  exclude_dflt;
+      lookup sub_chain_locllatn_0;
+     language MOL  exclude_dflt;
+      lookup sub_single_locllatn_0;
+     language ROM  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup;
 } locl;
 
 feature sups {
-# automatic
-sub one by onesuperior;
-sub two by twosuperior;
-sub three by threesuperior;
-sub four by foursuperior;
+
+ script DFLT;
+     language dflt ;
+      lookup supsSuperscriptlookup5;
+
+ script grek;
+     language dflt ;
+      lookup supsSuperscriptlookup5;
+
+ script latn;
+     language dflt ;
+      lookup supsSuperscriptlookup5;
+     language CAT  exclude_dflt;
+      lookup supsSuperscriptlookup5;
+     language MOL  exclude_dflt;
+      lookup supsSuperscriptlookup5;
+     language ROM  exclude_dflt;
+      lookup supsSuperscriptlookup5;
 } sups;
 
 feature frac {
-# automatic
-sub one slash four by onequarter;
-sub one slash two by onehalf;
-sub three slash four by threequarters;
+
+ script DFLT;
+     language dflt ;
+      lookup fracDiagonalFractionslookup6;
+
+ script grek;
+     language dflt ;
+      lookup fracDiagonalFractionslookup6;
+
+ script latn;
+     language dflt ;
+      lookup fracDiagonalFractionslookup6;
+     language CAT  exclude_dflt;
+      lookup fracDiagonalFractionslookup6;
+     language MOL  exclude_dflt;
+      lookup fracDiagonalFractionslookup6;
+     language ROM  exclude_dflt;
+      lookup fracDiagonalFractionslookup6;
 } frac;
 
 feature ordn {
-# automatic
-sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
-sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+
+ script DFLT;
+     language dflt ;
+      lookup ordnOrdinalslookup7;
+
+ script grek;
+     language dflt ;
+      lookup ordnOrdinalslookup7;
+
+ script latn;
+     language dflt ;
+      lookup ordnOrdinalslookup7;
+     language CAT  exclude_dflt;
+      lookup ordnOrdinalslookup7;
+     language MOL  exclude_dflt;
+      lookup ordnOrdinalslookup7;
+     language ROM  exclude_dflt;
+      lookup ordnOrdinalslookup7;
 } ordn;
 
 feature case {
-# automatic
-sub acute by acute.case;
-sub breve by breve.case;
-sub caron by caron.case;
-sub cedilla by cedilla.case;
-sub circumflex by circumflex.case;
-sub dieresis by dieresis.case;
-sub dotaccent by dotaccent.case;
-sub grave by grave.case;
-sub hungarumlaut by hungarumlaut.case;
-sub macron by macron.case;
-sub ogonek by ogonek.case;
-sub ring by ring.case;
-sub tilde by tilde.case;
-sub commaaccent by commaaccent.case;
+
+ script DFLT;
+     language dflt ;
+      lookup caseCaseSensitiveFormslookup10;
+
+ script grek;
+     language dflt ;
+      lookup caseCaseSensitiveFormslookup10;
+
+ script latn;
+     language dflt ;
+      lookup caseCaseSensitiveFormslookup10;
+     language CAT  exclude_dflt;
+      lookup caseCaseSensitiveFormslookup10;
+     language MOL  exclude_dflt;
+      lookup caseCaseSensitiveFormslookup10;
+     language ROM  exclude_dflt;
+      lookup caseCaseSensitiveFormslookup10;
 } case;
+
+@GDEF_Simple = [\A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron 
+	\Aogonek \Aring \Atilde \B \C \Cacute \Ccaron \Ccedilla \Ccircumflex \Cdotaccent 
+	\D \Dcaron \Dcroat \Delta \E \Eacute \Ebreve \Ecaron \Ecircumflex \Edieresis 
+	\Edotaccent \Egrave \Emacron \Eng \Eogonek \Eth \F \G \Gbreve \Gcircumflex 
+	\Gcommaaccent \Gdotaccent \H \Hbar \Hcircumflex \I \IJ \Iacute \Ibreve 
+	\Icircumflex \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \Itilde \J 
+	\Jcircumflex \K \Kcommaaccent \L \Lacute \Lcaron \Lcommaaccent \Lslash \M \N 
+	\Nacute \Ncaron \Ncommaaccent \Ntilde \O \OE \Oacute \Obreve \Ocircumflex 
+	\Odieresis \Ograve \Ohungarumlaut \Omacron \Omega \Oslash \Otilde \P \Q \R \Racute 
+	\Rcaron \Rcommaaccent \S \Sacute \Scaron \Scedilla \Scircumflex \Scommaaccent \T 
+	\Tbar \Tcaron \Tcedilla \Tcommaaccent \Thorn \U \Uacute \Ubreve \Ucircumflex 
+	\Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring \Utilde \V \W \Wacute 
+	\Wcircumflex \Wdieresis \Wgrave \X \Y \Yacute \Ycircumflex \Ydieresis \Ygrave \Z 
+	\Zacute \Zcaron \Zdotaccent \a \aacute \abreve \acircumflex \acute \adieresis \ae 
+	\agrave \amacron \ampersand \aogonek \approxequal \aring \asciicircum 
+	\asciitilde \asterisk \at \atilde \b \backslash \bar \braceleft \braceright 
+	\bracketleft \bracketright \breve \brokenbar \bullet \c \cacute \caron 
+	\caron.alt \ccaron \ccedilla \ccircumflex \cdotaccent \cedilla \cedilla.case 
+	\cent \circumflex \colon \colon.alt \comma \comma.alt \commaaccent 
+	\commaaccent.case \copyright \currency \d \dagger \daggerdbl \dcaron \dcroat 
+	\degree \dieresis \divide \dollar \dotaccent \dotlessi \dotlessj \e \eacute 
+	\ebreve \ecaron \ecircumflex \edieresis \edotaccent \egrave \eight \ellipsis 
+	\ellipsis.alt1 \ellipsis.alt2 \ellipsis.alt3 \ellipsis.alt4 \ellipsis.alt5 
+	\emacron \emdash \emdash.alt1 \emdash.alt2 \emdash.alt3 \emdash.alt4 \endash 
+	\eng \eogonek \equal \eth \euro \exclam \exclamdown \f \fi \five \fl \florin \four 
+	\foursuperior \fraction \franc \g \gbreve \gcircumflex \gcommaaccent 
+	\gdotaccent \germandbls \grave \greater \greaterequal \guillemetleft 
+	\guillemetright \guilsinglleft \guilsinglright \h \hbar \hcircumflex 
+	\hungarumlaut \hyphen \hyphen.alt \i \iacute \ibreve \icircumflex \idieresis 
+	\idotaccent \igrave \ij \imacron \infinity \integral \iogonek \itilde \j 
+	\jcircumflex \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \less \lessequal 
+	\logicalnot \lozenge \lslash \m \macron \minus \minute \mu \multiply \n \nacute 
+	\nbspace \ncaron \ncommaaccent \nine \nonbreakinghyphen \notequal \ntilde 
+	\numbersign \o \oacute \obreve \ocircumflex \odieresis \oe \ogonek \ogonek.case 
+	\ograve \ohungarumlaut \omacron \one \onesuperior \ordfeminine \ordmasculine 
+	\oslash \otilde \p \paragraph \parenleft \parenright \partialdiff \percent 
+	\period \period.alt \period.squat \periodcentered \perthousand \pi \plus 
+	\plusminus \product \q \question \questiondown \quotedbl \quotedblbase 
+	\quotedblleft \quotedblright \quoteleft \quoteright \quotesinglbase 
+	\quotesingle \r \racute \radical \rcaron \rcommaaccent \registered \ring \s 
+	\sacute \scaron \scedilla \scircumflex \scommaaccent \second \section 
+	\semicolon \semicolon.alt \seven \six \slash \softhyphen \space \sterling 
+	\summation \t \tbar \tcaron \tcedilla \tcommaaccent \thorn \three \threesuperior 
+	\tilde \trademark \two \twosuperior \u \uacute \ubreve \ucircumflex \udieresis 
+	\ugrave \uhungarumlaut \umacron \underscore \uogonek \uring \utilde \v \w \wacute 
+	\wcircumflex \wdieresis \wgrave \won \x \y \yacute \ycircumflex \ydieresis \yen 
+	\ygrave \z \zacute \zcaron \zdotaccent \zero \u1D400 \u1D401 \u1D402 \u1D403 
+	\u1D404 \u1D405 \u1D406 \u1D407 \u1D408 \u1D409 \u1D40A \u1D40B \u1D40C \u1D40D 
+	\u1D40E \u1D40F \u1D410 \u1D411 \u1D412 \u1D413 \u1D414 \u1D415 \u1D416 \u1D417 
+	\u1D418 \u1D419 \u1D41A \u1D41B \u1D41C \u1D41D \u1D41E \u1D41F \u1D420 \u1D421 
+	\u1D422 \u1D423 \u1D424 \u1D425 \u1D426 \u1D427 \u1D428 \u1D429 \u1D42A \u1D42B 
+	\u1D42C \u1D42D \u1D42E \u1D42F \u1D430 \u1D431 \u1D432 \u1D433 \u1D434 \u1D435 
+	\u1D436 \u1D437 \u1D438 \u1D439 \u1D43A \u1D43B \u1D43C \u1D43D \u1D43E \u1D43F 
+	\u1D440 \u1D441 \u1D442 \u1D443 \u1D444 \u1D445 \u1D446 \u1D447 \u1D448 \u1D449 
+	\u1D44A \u1D44B \u1D44C \u1D44D \u1D44E \u1D44F \u1D450 \u1D451 \u1D452 \u1D453 
+	\u1D454 \u1D456 \u1D457 \u1D458 \u1D459 \u1D45A \u1D45B \u1D45C \u1D45D \u1D45E 
+	\u1D45F \u1D460 \u1D461 \u1D462 \u1D463 \u1D464 \u1D465 \u1D466 \u1D467 \u1D468 
+	\u1D469 \u1D46A \u1D46B \u1D46C \u1D46D \u1D46E \u1D46F \u1D470 \u1D471 \u1D472 
+	\u1D473 \u1D474 \u1D475 \u1D476 \u1D477 \u1D478 \u1D479 \u1D47A \u1D47B \u1D47C 
+	\u1D47D \u1D47E \u1D47F \u1D480 \u1D481 \u1D482 \u1D483 \u1D484 \u1D485 \u1D486 
+	\u1D487 \u1D488 \u1D489 \u1D48A \u1D48B \u1D48C \u1D48D \u1D48E \u1D48F \u1D490 
+	\u1D491 \u1D492 \u1D493 \u1D494 \u1D495 \u1D496 \u1D497 \u1D498 \u1D499 \u1D49A 
+	\u1D49B \u1D670 \u1D671 \u1D672 \u1D673 \u1D674 \u1D675 \u1D676 \u1D677 \u1D678 
+	\u1D679 \u1D67A \u1D67B \u1D67C \u1D67D \u1D67E \u1D67F \u1D680 \u1D681 \u1D682 
+	\u1D683 \u1D684 \u1D685 \u1D686 \u1D687 \u1D688 \u1D689 \u1D68A \u1D68B \u1D68C 
+	\u1D68D \u1D68E \u1D68F \u1D690 \u1D691 \u1D692 \u1D693 \u1D694 \u1D695 \u1D696 
+	\u1D697 \u1D698 \u1D699 \u1D69A \u1D69B \u1D69C \u1D69D \u1D69E \u1D69F \u1D6A0 
+	\u1D6A1 \u1D6A2 \u1D6A3 \u1D6A4 \u1D6A5 \u1D7CE \u1D7CF \u1D7D0 \u1D7D1 \u1D7D2 
+	\u1D7D3 \u1D7D4 \u1D7D5 \u1D7D6 \u1D7D7 \u1D7F6 \u1D7F7 \u1D7F8 \u1D7F9 \u1D7FA 
+	\u1D7FB \u1D7FC \u1D7FD \u1D7FE \u1D7FF \uni210E \u1D5A0 \u1D5A1 \u1D5A2 \u1D5A3 
+	\u1D5A4 \u1D5A5 \u1D5A6 \u1D5A7 \u1D5A8 \u1D5A9 \u1D5AA \u1D5AB \u1D5AC \u1D5AD 
+	\u1D5AE \u1D5AF \u1D5B0 \u1D5B1 \u1D5B2 \u1D5B3 \u1D5B4 \u1D5B5 \u1D5B6 \u1D5B7 
+	\u1D5B8 \u1D5B9 \u1D5BA \u1D5BB \u1D5BC \u1D5BD \u1D5BE \u1D5BF \u1D5C0 \u1D5C1 
+	\u1D5C2 \u1D5C3 \u1D5C4 \u1D5C5 \u1D5C6 \u1D5C7 \u1D5C8 \u1D5C9 \u1D5CA \u1D5CB 
+	\u1D5CC \u1D5CD \u1D5CE \u1D5CF \u1D5D0 \u1D5D1 \u1D5D2 \u1D5D3 \u1D7E2 \u1D7E3 
+	\u1D7E4 \u1D7E5 \u1D7E6 \u1D7E7 \u1D7E8 \u1D7E9 \u1D7EA \u1D7EB \u1D5D4 \u1D5D5 
+	\u1D5D6 \u1D5D7 \u1D5D8 \u1D5D9 \u1D5DA \u1D5DB \u1D5DC \u1D5DD \u1D5DE \u1D5DF 
+	\u1D5E0 \u1D5E1 \u1D5E2 \u1D5E3 \u1D5E4 \u1D5E5 \u1D5E6 \u1D5E7 \u1D5E8 \u1D5E9 
+	\u1D5EA \u1D5EB \u1D5EC \u1D5ED \u1D5EE \u1D5EF \u1D5F0 \u1D5F1 \u1D5F2 \u1D5F3 
+	\u1D5F4 \u1D5F5 \u1D5F6 \u1D5F7 \u1D5F8 \u1D5F9 \u1D5FA \u1D5FB \u1D5FC \u1D5FD 
+	\u1D5FE \u1D5FF \u1D600 \u1D601 \u1D602 \u1D603 \u1D604 \u1D605 \u1D606 \u1D607 
+	\u1D7EC \u1D7ED \u1D7EE \u1D7EF \u1D7F0 \u1D7F1 \u1D7F2 \u1D7F3 \u1D7F4 \u1D7F5 
+	\u1D608 \u1D609 \u1D60A \u1D60B \u1D60C \u1D60D \u1D60E \u1D60F \u1D610 \u1D611 
+	\u1D612 \u1D613 \u1D614 \u1D615 \u1D616 \u1D617 \u1D618 \u1D619 \u1D61A \u1D61B 
+	\u1D61C \u1D61D \u1D61E \u1D61F \u1D620 \u1D621 \u1D622 \u1D623 \u1D624 \u1D625 
+	\u1D626 \u1D627 \u1D628 \u1D629 \u1D62A \u1D62B \u1D62C \u1D62D \u1D62E \u1D62F 
+	\u1D630 \u1D631 \u1D632 \u1D633 \u1D634 \u1D635 \u1D636 \u1D637 \u1D638 \u1D639 
+	\u1D63A \u1D63B \u1D63C \u1D63D \u1D63E \u1D63F \u1D640 \u1D641 \u1D642 \u1D643 
+	\u1D644 \u1D645 \u1D646 \u1D647 \u1D648 \u1D649 \u1D64A \u1D64B \u1D64C \u1D64D 
+	\u1D64E \u1D64F \u1D650 \u1D651 \u1D652 \u1D653 \u1D654 \u1D655 \u1D656 \u1D657 
+	\u1D658 \u1D659 \u1D65A \u1D65B \u1D65C \u1D65D \u1D65E \u1D65F \u1D660 \u1D661 
+	\u1D662 \u1D663 \u1D664 \u1D665 \u1D666 \u1D667 \u1D668 \u1D669 \u1D66A \u1D66B 
+	\u1D66C \u1D66D \u1D66E \u1D66F ];
+@GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
+@GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
+	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
+	\ring.case \tilde.case ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+
+} GDEF;
 
