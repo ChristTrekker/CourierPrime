@@ -425,9 +425,9 @@
       <string>commaaccent.case</string>
       <string>commaaccent</string>
     </array>
-    <key>com.schriftgestaltung.useNiceNames</key>
-    <true/>
     <key>com.schriftgestaltung.fontMasterID</key>
     <string>UUID0</string>
+    <key>com.schriftgestaltung.useNiceNames</key>
+    <true/>
   </dict>
 </plist>

@@ -9,6 +9,90 @@ languagesystem latn ROM ;
 # GSUB 
 
 
+lookup pcapLowercasetoPetiteCapitalsin {
+  lookupflag 0;
+    sub \a by \a.pc ;
+    sub \ae by \ae.pc ;
+    sub \b by \b.pc ;
+    sub \c by \c.pc ;
+    sub \d by \d.pc ;
+    sub \e by \e.pc ;
+    sub \eight by \eight.taboldstyle ;
+    sub \f by \f.pc ;
+    sub \five by \five.taboldstyle ;
+    sub \four by \four.taboldstyle ;
+    sub \g by \g.pc ;
+    sub \h by \h.pc ;
+    sub \i by \i.pc ;
+    sub \j by \j.pc ;
+    sub \k by \k.pc ;
+    sub \l by \l.pc ;
+    sub \m by \m.pc ;
+    sub \n by \n.pc ;
+    sub \nine by \nine.taboldstyle ;
+    sub \o by \o.pc ;
+    sub \oe by \oe.pc ;
+    sub \one by \one.taboldstyle ;
+    sub \p by \p.pc ;
+    sub \q by \q.pc ;
+    sub \r by \r.pc ;
+    sub \s by \s.pc ;
+    sub \seven by \seven.taboldstyle ;
+    sub \six by \six.taboldstyle ;
+    sub \t by \t.pc ;
+    sub \three by \three.taboldstyle ;
+    sub \two by \two.taboldstyle ;
+    sub \u by \u.pc ;
+    sub \v by \v.pc ;
+    sub \w by \w.pc ;
+    sub \x by \x.pc ;
+    sub \y by \y.pc ;
+    sub \z by \z.pc ;
+    sub \zero by \zero.taboldstyle ;
+} pcapLowercasetoPetiteCapitalsin;
+
+lookup c2pcCapitalstoPetiteCapitalsinL {
+  lookupflag 0;
+    sub \A by \a.pc ;
+    sub \AE by \ae.pc ;
+    sub \B by \b.pc ;
+    sub \C by \c.pc ;
+    sub \D by \d.pc ;
+    sub \E by \e.pc ;
+    sub \F by \f.pc ;
+    sub \G by \g.pc ;
+    sub \H by \h.pc ;
+    sub \I by \i.pc ;
+    sub \J by \j.pc ;
+    sub \K by \k.pc ;
+    sub \L by \l.pc ;
+    sub \M by \m.pc ;
+    sub \N by \n.pc ;
+    sub \O by \o.pc ;
+    sub \OE by \oe.pc ;
+    sub \P by \p.pc ;
+    sub \Q by \q.pc ;
+    sub \R by \r.pc ;
+    sub \S by \s.pc ;
+    sub \T by \t.pc ;
+    sub \U by \u.pc ;
+    sub \V by \v.pc ;
+    sub \W by \w.pc ;
+    sub \X by \x.pc ;
+    sub \Y by \y.pc ;
+    sub \Z by \z.pc ;
+    sub \eight by \eight.taboldstyle ;
+    sub \five by \five.taboldstyle ;
+    sub \four by \four.taboldstyle ;
+    sub \nine by \nine.taboldstyle ;
+    sub \one by \one.taboldstyle ;
+    sub \seven by \seven.taboldstyle ;
+    sub \six by \six.taboldstyle ;
+    sub \three by \three.taboldstyle ;
+    sub \two by \two.taboldstyle ;
+    sub \zero by \zero.taboldstyle ;
+} c2pcCapitalstoPetiteCapitalsinL;
+
 lookup loclLocalizedFormsinLatinlookup {
   lookupflag 0;
     sub \Scedilla by \Scommaaccent ;
@@ -69,6 +153,28 @@ lookup caseCaseSensitiveFormslookup10 {
     sub \ring by \ring.case ;
     sub \tilde by \tilde.case ;
 } caseCaseSensitiveFormslookup10;
+
+feature pcap {
+
+ script DFLT;
+     language dflt ;
+      lookup pcapLowercasetoPetiteCapitalsin;
+
+ script latn;
+     language dflt ;
+      lookup pcapLowercasetoPetiteCapitalsin;
+} pcap;
+
+feature c2pc {
+
+ script DFLT;
+     language dflt ;
+      lookup c2pcCapitalstoPetiteCapitalsinL;
+
+ script latn;
+     language dflt ;
+      lookup c2pcCapitalstoPetiteCapitalsinL;
+} c2pc;
 
 feature locl {
 
@@ -261,7 +367,11 @@ feature case {
 	\u1D64E \u1D64F \u1D650 \u1D651 \u1D652 \u1D653 \u1D654 \u1D655 \u1D656 \u1D657 
 	\u1D658 \u1D659 \u1D65A \u1D65B \u1D65C \u1D65D \u1D65E \u1D65F \u1D660 \u1D661 
 	\u1D662 \u1D663 \u1D664 \u1D665 \u1D666 \u1D667 \u1D668 \u1D669 \u1D66A \u1D66B 
-	\u1D66C \u1D66D \u1D66E \u1D66F ];
+	\u1D66C \u1D66D \u1D66E \u1D66F \zero.taboldstyle \one.taboldstyle 
+	\two.taboldstyle \three.taboldstyle \four.taboldstyle \five.taboldstyle 
+	\six.taboldstyle \seven.taboldstyle \eight.taboldstyle \nine.taboldstyle 
+	\a.pc \b.pc \c.pc \d.pc \e.pc \f.pc \g.pc \h.pc \i.pc \j.pc \k.pc \l.pc \m.pc \n.pc 
+	\o.pc \p.pc \q.pc \r.pc \s.pc \t.pc \u.pc \v.pc \w.pc \x.pc \y.pc \z.pc \ae.pc \oe.pc ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
