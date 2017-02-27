@@ -9,6 +9,78 @@ languagesystem latn ROM ;
 # GSUB 
 
 
+lookup sinfScientificInferiorslookup0 {
+  lookupflag 0;
+    sub \eight by \eight.inferior ;
+    sub \five by \five.inferior ;
+    sub \four by \four.inferior ;
+    sub \nine by \nine.inferior ;
+    sub \one by \one.inferior ;
+    sub \seven by \seven.inferior ;
+    sub \six by \six.inferior ;
+    sub \three by \three.inferior ;
+    sub \two by \two.inferior ;
+    sub \zero by \zero.inferior ;
+} sinfScientificInferiorslookup0;
+
+lookup sinfScientificInferiorsinLatinl {
+  lookupflag 0;
+    sub \A by \A.inferior ;
+    sub \AE by \AE.inferior ;
+    sub \B by \B.inferior ;
+    sub \C by \C.inferior ;
+    sub \D by \D.inferior ;
+    sub \E by \E.inferior ;
+    sub \F by \F.inferior ;
+    sub \G by \G.inferior ;
+    sub \H by \H.inferior ;
+    sub \I by \I.inferior ;
+    sub \J by \J.inferior ;
+    sub \K by \K.inferior ;
+    sub \L by \L.inferior ;
+    sub \M by \M.inferior ;
+    sub \N by \N.inferior ;
+    sub \O by \O.inferior ;
+    sub \P by \P.inferior ;
+    sub \Q by \Q.inferior ;
+    sub \R by \R.inferior ;
+    sub \S by \S.inferior ;
+    sub \T by \T.inferior ;
+    sub \U by \U.inferior ;
+    sub \V by \V.inferior ;
+    sub \W by \W.inferior ;
+    sub \X by \X.inferior ;
+    sub \Y by \Y.inferior ;
+    sub \Z by \Z.inferior ;
+    sub \a by \a.inferior ;
+    sub \ae by \ae.inferior ;
+    sub \b by \b.inferior ;
+    sub \c by \c.inferior ;
+    sub \d by \d.inferior ;
+    sub \e by \e.inferior ;
+    sub \f by \f.inferior ;
+    sub \g by \g.inferior ;
+    sub \h by \h.inferior ;
+    sub \i by \i.inferior ;
+    sub \j by \j.inferior ;
+    sub \k by \k.inferior ;
+    sub \l by \l.inferior ;
+    sub \m by \m.inferior ;
+    sub \n by \n.inferior ;
+    sub \o by \o.inferior ;
+    sub \p by \p.inferior ;
+    sub \q by \q.inferior ;
+    sub \r by \r.inferior ;
+    sub \s by \s.inferior ;
+    sub \t by \t.inferior ;
+    sub \u by \u.inferior ;
+    sub \v by \v.inferior ;
+    sub \w by \w.inferior ;
+    sub \x by \x.inferior ;
+    sub \y by \y.inferior ;
+    sub \z by \z.inferior ;
+} sinfScientificInferiorsinLatinl;
+
 lookup pcapLowercasetoPetiteCapitalsin {
   lookupflag 0;
     sub \a by \a.pc ;
@@ -117,10 +189,70 @@ lookup sub_chain_locllatn_0 {
 
 lookup supsSuperscriptlookup5 {
   lookupflag 0;
+    sub \A by \A.superior ;
+    sub \AE by \AE.superior ;
+    sub \B by \B.superior ;
+    sub \C by \C.superior ;
+    sub \D by \D.superior ;
+    sub \E by \E.superior ;
+    sub \F by \F.superior ;
+    sub \G by \G.superior ;
+    sub \H by \H.superior ;
+    sub \I by \I.superior ;
+    sub \J by \J.superior ;
+    sub \K by \K.superior ;
+    sub \L by \L.superior ;
+    sub \M by \M.superior ;
+    sub \N by \N.superior ;
+    sub \O by \O.superior ;
+    sub \P by \P.superior ;
+    sub \Q by \Q.superior ;
+    sub \R by \R.superior ;
+    sub \S by \S.superior ;
+    sub \T by \T.superior ;
+    sub \U by \U.superior ;
+    sub \V by \V.superior ;
+    sub \W by \W.superior ;
+    sub \X by \X.superior ;
+    sub \Y by \Y.superior ;
+    sub \Z by \Z.superior ;
+    sub \a by \a.superior ;
+    sub \ae by \ae.superior ;
+    sub \b by \b.superior ;
+    sub \c by \c.superior ;
+    sub \d by \d.superior ;
+    sub \e by \e.superior ;
+    sub \eight by \eight.superior ;
+    sub \f by \f.superior ;
+    sub \five by \five.superior ;
     sub \four by \foursuperior ;
+    sub \g by \g.superior ;
+    sub \h by \h.superior ;
+    sub \i by \i.superior ;
+    sub \j by \j.superior ;
+    sub \k by \k.superior ;
+    sub \l by \l.superior ;
+    sub \m by \m.superior ;
+    sub \n by \n.superior ;
+    sub \nine by \nine.superior ;
+    sub \o by \o.superior ;
     sub \one by \onesuperior ;
+    sub \p by \p.superior ;
+    sub \q by \q.superior ;
+    sub \r by \r.superior ;
+    sub \s by \s.superior ;
+    sub \seven by \seven.superior ;
+    sub \six by \six.superior ;
+    sub \t by \t.superior ;
     sub \three by \threesuperior ;
     sub \two by \twosuperior ;
+    sub \u by \u.superior ;
+    sub \v by \v.superior ;
+    sub \w by \w.superior ;
+    sub \x by \x.superior ;
+    sub \y by \y.superior ;
+    sub \z by \z.superior ;
+    sub \zero by \zero.superior ;
 } supsSuperscriptlookup5;
 
 lookup fracDiagonalFractionslookup6 {
@@ -153,6 +285,17 @@ lookup caseCaseSensitiveFormslookup10 {
     sub \ring by \ring.case ;
     sub \tilde by \tilde.case ;
 } caseCaseSensitiveFormslookup10;
+
+feature sinf {
+
+ script DFLT;
+     language dflt ;
+      lookup sinfScientificInferiorslookup0;
+
+ script latn;
+     language dflt ;
+      lookup sinfScientificInferiorsinLatinl;
+} sinf;
 
 feature pcap {
 
@@ -371,7 +514,29 @@ feature case {
 	\two.taboldstyle \three.taboldstyle \four.taboldstyle \five.taboldstyle 
 	\six.taboldstyle \seven.taboldstyle \eight.taboldstyle \nine.taboldstyle 
 	\a.pc \b.pc \c.pc \d.pc \e.pc \f.pc \g.pc \h.pc \i.pc \j.pc \k.pc \l.pc \m.pc \n.pc 
-	\o.pc \p.pc \q.pc \r.pc \s.pc \t.pc \u.pc \v.pc \w.pc \x.pc \y.pc \z.pc \ae.pc \oe.pc ];
+	\o.pc \p.pc \q.pc \r.pc \s.pc \t.pc \u.pc \v.pc \w.pc \x.pc \y.pc \z.pc \ae.pc \oe.pc 
+	\A.superior \B.superior \C.superior \D.superior \E.superior \F.superior 
+	\G.superior \H.superior \I.superior \J.superior \K.superior \L.superior 
+	\M.superior \N.superior \O.superior \P.superior \Q.superior \R.superior 
+	\S.superior \T.superior \U.superior \V.superior \W.superior \X.superior 
+	\Y.superior \Z.superior \AE.superior \a.superior \b.superior \c.superior 
+	\d.superior \e.superior \f.superior \g.superior \h.superior \i.superior 
+	\j.superior \k.superior \l.superior \m.superior \n.superior \o.superior 
+	\p.superior \q.superior \r.superior \s.superior \t.superior \u.superior 
+	\v.superior \w.superior \x.superior \y.superior \z.superior \ae.superior 
+	\A.inferior \B.inferior \C.inferior \D.inferior \E.inferior \F.inferior 
+	\G.inferior \H.inferior \I.inferior \J.inferior \K.inferior \L.inferior 
+	\M.inferior \N.inferior \O.inferior \P.inferior \Q.inferior \R.inferior 
+	\S.inferior \T.inferior \U.inferior \V.inferior \W.inferior \X.inferior 
+	\Y.inferior \Z.inferior \AE.inferior \a.inferior \b.inferior \c.inferior 
+	\d.inferior \e.inferior \f.inferior \g.inferior \h.inferior \i.inferior 
+	\j.inferior \k.inferior \l.inferior \m.inferior \n.inferior \o.inferior 
+	\p.inferior \q.inferior \r.inferior \s.inferior \t.inferior \u.inferior 
+	\v.inferior \w.inferior \x.inferior \y.inferior \z.inferior \ae.inferior 
+	\zero.superior \five.superior \six.superior \seven.superior \eight.superior 
+	\nine.superior \zero.inferior \one.inferior \two.inferior \three.inferior 
+	\four.inferior \five.inferior \six.inferior \seven.inferior \eight.inferior 
+	\nine.inferior ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 

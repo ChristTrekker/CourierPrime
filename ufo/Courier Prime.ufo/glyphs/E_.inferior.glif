@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="E.inferior" format="1">
+  <advance width="1228"/>
+  <outline>
+    <component base="E.superior" yOffset="-630"/>
+  </outline>
+</glyph>
