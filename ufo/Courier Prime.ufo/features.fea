@@ -551,7 +551,13 @@ feature case {
 	\uni04D8 \uni04D9 \uni04E8 \uni04E9 \gravecomb \acutecomb \uni0302 \tildecomb 
 	\uni0304 \uni0306 \uni0307 \uni0308 \uni030A \uni030B \uni030C \uni0325 \uni0328 
 	\uni0331 \uni0334 \uni0335 \uni0336 \uni0337 \uni0338 \uni20D3 \uni20D8 \uni20DB 
-	\uni20E5 \uni20DD.alt \uni0338.lower \uni2022.alt \uni2016 \uni2027 ];
+	\uni20E5 \uni20DD.alt \uni0338.lower \uni2022.alt \uni2016 \uni2027 \uniA4D0 
+	\uniA4D1 \uniA4D2 \uniA4D3 \uniA4D4 \uniA4D5 \uniA4D6 \uniA4D7 \uniA4D8 \uniA4D9 
+	\uniA4DA \uniA4DB \uniA4DC \uniA4DD \uniA4DE \uniA4DF \uniA4E0 \uniA4E1 \uniA4E2 
+	\uniA4E3 \uniA4E4 \uniA4E5 \uniA4E6 \uniA4E7 \uniA4E8 \uniA4E9 \uniA4EA \uniA4EB 
+	\uniA4EC \uniA4ED \uniA4EE \uniA4EF \uniA4F0 \uniA4F1 \uniA4F2 \uniA4F3 \uniA4F4 
+	\uniA4F5 \uniA4F6 \uniA4F7 \uniA4F8 \uniA4F9 \uniA4FA \uniA4FB \uniA4FC \uniA4FD 
+	\uniA4FE \uniA4FF \uni2010 ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
