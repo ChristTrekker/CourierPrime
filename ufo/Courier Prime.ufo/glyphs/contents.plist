@@ -2284,5 +2284,61 @@
     <string>uni04E_8.glif</string>
     <key>uni04E9</key>
     <string>uni04E_9.glif</string>
+    <key>gravecomb</key>
+    <string>gravecomb.glif</string>
+    <key>acutecomb</key>
+    <string>acutecomb.glif</string>
+    <key>uni0302</key>
+    <string>uni0302.glif</string>
+    <key>tildecomb</key>
+    <string>tildecomb.glif</string>
+    <key>uni0304</key>
+    <string>uni0304.glif</string>
+    <key>uni0306</key>
+    <string>uni0306.glif</string>
+    <key>uni0307</key>
+    <string>uni0307.glif</string>
+    <key>uni0308</key>
+    <string>uni0308.glif</string>
+    <key>uni030A</key>
+    <string>uni030A_.glif</string>
+    <key>uni030B</key>
+    <string>uni030B_.glif</string>
+    <key>uni030C</key>
+    <string>uni030C_.glif</string>
+    <key>uni0325</key>
+    <string>uni0325.glif</string>
+    <key>uni0328</key>
+    <string>uni0328.glif</string>
+    <key>uni0331</key>
+    <string>uni0331.glif</string>
+    <key>uni0334</key>
+    <string>uni0334.glif</string>
+    <key>uni0335</key>
+    <string>uni0335.glif</string>
+    <key>uni0336</key>
+    <string>uni0336.glif</string>
+    <key>uni0337</key>
+    <string>uni0337.glif</string>
+    <key>uni0338</key>
+    <string>uni0338.glif</string>
+    <key>uni20D3</key>
+    <string>uni20D_3.glif</string>
+    <key>uni20D8</key>
+    <string>uni20D_8.glif</string>
+    <key>uni20DB</key>
+    <string>uni20D_B_.glif</string>
+    <key>uni20E5</key>
+    <string>uni20E_5.glif</string>
+    <key>uni20DD.alt</key>
+    <string>uni20D_D_.alt.glif</string>
+    <key>uni0338.lower</key>
+    <string>uni0338.lower.glif</string>
+    <key>uni2022.alt</key>
+    <string>uni2022.alt.glif</string>
+    <key>uni2016</key>
+    <string>uni2016.glif</string>
+    <key>uni2027</key>
+    <string>uni2027.glif</string>
   </dict>
 </plist>
