@@ -1,9 +1,11 @@
 languagesystem DFLT dflt;
+languagesystem cyrl dflt;
 languagesystem grek dflt;
 languagesystem latn CAT ;
 languagesystem latn dflt;
 languagesystem latn MOL ;
 languagesystem latn ROM ;
+languagesystem math dflt;
 
 
 # GSUB 
@@ -286,6 +288,11 @@ lookup caseCaseSensitiveFormslookup10 {
     sub \tilde by \tilde.case ;
 } caseCaseSensitiveFormslookup10;
 
+lookup zeroSlashedZerolookup15 {
+  lookupflag 0;
+    sub \zero by \zero.zero ;
+} zeroSlashedZerolookup15;
+
 feature sinf {
 
  script DFLT;
@@ -417,6 +424,36 @@ feature case {
      language ROM  exclude_dflt;
       lookup caseCaseSensitiveFormslookup10;
 } case;
+
+feature zero {
+
+ script DFLT;
+     language dflt ;
+      lookup zeroSlashedZerolookup15;
+
+ script cyrl;
+     language dflt ;
+      lookup zeroSlashedZerolookup15;
+
+ script grek;
+     language dflt ;
+      lookup zeroSlashedZerolookup15;
+
+ script latn;
+     language dflt ;
+      lookup zeroSlashedZerolookup15;
+     language CAT  exclude_dflt;
+      lookup zeroSlashedZerolookup15;
+     language MOL  exclude_dflt;
+      lookup zeroSlashedZerolookup15;
+     language ROM  exclude_dflt;
+      lookup zeroSlashedZerolookup15;
+
+ script math;
+     language dflt ;
+      lookup zeroSlashedZerolookup15;
+} zero;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron 
 	\Aogonek \Aring \Atilde \B \C \Cacute \Ccaron \Ccedilla \Ccircumflex \Cdotaccent 
@@ -559,7 +596,12 @@ feature case {
 	\uniA4F5 \uniA4F6 \uniA4F7 \uniA4F8 \uniA4F9 \uniA4FA \uniA4FB \uniA4FC \uniA4FD 
 	\uniA4FE \uniA4FF \uni2010 \uniFE50 \uniFE52 \uniFE55 \uniFE54 \uniFE56 \uniFE57 
 	\uniFE58 \uniFE59 \uniFE5A \uniFE5B \uniFE5C \uniFE5F \uniFE60 \uniFE61 \uniFE62 
-	\uniFE63 \uniFE64 \uniFE65 \uniFE66 \uniFE68 \uniFE69 \uniFE6A \uniFE6B ];
+	\uniFE63 \uniFE64 \uniFE65 \uniFE66 \uniFE68 \uniFE69 \uniFE6A \uniFE6B \longs 
+	\uni01BF \uni01F7 \uni20A9.alt \uni2715 \uni2716 \uni2731 \uni2732 \uni273B 
+	\uni2753 \uni2757 \uni2759 \uni275B \uni275C \uni275D \uni275E \uni275F \uni2760 
+	\uni2768 \uni2769 \uni276E \uni276F \uni2774 \uni2775 \uni2795 \uni2796 \uni2797 
+	\uni2A2F \u1F4B2 \u1F674 \u1F675 \u1F672 \u1F7B2 \u1F7B0 \u1F7B1 \dollar.alt 
+	\asterisk.alt \zero.zero ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
