@@ -557,7 +557,9 @@ feature case {
 	\uniA4E3 \uniA4E4 \uniA4E5 \uniA4E6 \uniA4E7 \uniA4E8 \uniA4E9 \uniA4EA \uniA4EB 
 	\uniA4EC \uniA4ED \uniA4EE \uniA4EF \uniA4F0 \uniA4F1 \uniA4F2 \uniA4F3 \uniA4F4 
 	\uniA4F5 \uniA4F6 \uniA4F7 \uniA4F8 \uniA4F9 \uniA4FA \uniA4FB \uniA4FC \uniA4FD 
-	\uniA4FE \uniA4FF \uni2010 ];
+	\uniA4FE \uniA4FF \uni2010 \uniFE50 \uniFE52 \uniFE55 \uniFE54 \uniFE56 \uniFE57 
+	\uniFE58 \uniFE59 \uniFE5A \uniFE5B \uniFE5C \uniFE5F \uniFE60 \uniFE61 \uniFE62 
+	\uniFE63 \uniFE64 \uniFE65 \uniFE66 \uniFE68 \uniFE69 \uniFE6A \uniFE6B ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
