@@ -2,10 +2,10 @@
 <glyph name="dotaccent.case" format="1">
   <advance width="1228"/>
   <outline>
-    <component base="dotaccent" xOffset="40" yOffset="270"/>
     <contour>
       <point x="741" y="1187" type="move" name="_top"/>
     </contour>
+    <component base="dotaccent" xOffset="40" yOffset="270"/>
   </outline>
   <lib>
     <dict>
