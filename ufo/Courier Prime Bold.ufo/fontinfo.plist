@@ -6,8 +6,6 @@
     <string>Courier Prime</string>
     <key>styleName</key>
     <string>Bold</string>
-    <key>styleMapFamilyName</key>
-    <string>Courier Prime Bold</string>
     <key>styleMapStyleName</key>
     <string>regular</string>
     <key>versionMajor</key>
@@ -31,7 +29,7 @@
     <key>note</key>
     <string></string>
     <key>openTypeHeadCreated</key>
-    <string>2017/03/02 15:09:52</string>
+    <string>2017/03/02 23:29:59</string>
     <key>openTypeHheaAscender</key>
     <integer>1827</integer>
     <key>openTypeHheaDescender</key>

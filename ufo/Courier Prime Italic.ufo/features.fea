@@ -230,7 +230,7 @@ feature case {
 	\uni0454 \uni0455 \uni0456 \uni0457 \uni0458 \uni0459 \uni045A \uni045B \uni045C 
 	\uni045E \uni045F \uni0490 \uni0491 \uni0492 \uni0493 \uni049A \uni049B \uni04A2 
 	\uni04A3 \uni04AE \uni04AF \uni04B0 \uni04B1 \uni04BA \uni04BB \uni04D8 \uni04D9 
-	\uni04E8 \uni04E9 \uni1E86 \uni1E87 ];
+	\uni04E8 \uni04E9 ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
