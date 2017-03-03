@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni205D" format="1">
+  <advance width="1228"/>
+  <unicode hex="205D"/>
+  <outline>
+    <component base="period" yOffset="892"/>
+    <component base="period" yOffset="446"/>
+    <component base="period"/>
+  </outline>
+</glyph>

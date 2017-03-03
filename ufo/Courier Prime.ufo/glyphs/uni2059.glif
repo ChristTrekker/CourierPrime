@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2059" format="1">
+  <advance width="1228"/>
+  <unicode hex="2059"/>
+  <outline>
+    <component base="period" xOffset="-315"/>
+    <component base="period" xOffset="-315" yOffset="630"/>
+    <component base="period" xOffset="315" yOffset="630"/>
+    <component base="period" xOffset="315"/>
+    <component base="period" yOffset="315"/>
+  </outline>
+</glyph>

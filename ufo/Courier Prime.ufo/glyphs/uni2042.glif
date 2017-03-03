@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2042" format="1">
+  <advance width="1228"/>
+  <unicode hex="2042"/>
+  <outline>
+    <component base="uniFE61" xScale="0.849976" xOffset="436" yOffset="-298"/>
+    <component base="uniFE61" xScale="0.849976" xOffset="-252" yOffset="-298"/>
+    <component base="uniFE61" xScale="0.849976" xOffset="92" yOffset="263"/>
+  </outline>
+</glyph>

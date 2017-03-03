@@ -597,11 +597,25 @@ feature zero {
 	\uniA4FE \uniA4FF \uni2010 \uniFE50 \uniFE52 \uniFE55 \uniFE54 \uniFE56 \uniFE57 
 	\uniFE58 \uniFE59 \uniFE5A \uniFE5B \uniFE5C \uniFE5F \uniFE60 \uniFE61 \uniFE62 
 	\uniFE63 \uniFE64 \uniFE65 \uniFE66 \uniFE68 \uniFE69 \uniFE6A \uniFE6B \longs 
-	\uni20A9.alt \uni2715 \uni2716 \uni2731 \uni2732 \uni273B 
-	\uni2753 \uni2757 \uni2759 \uni275B \uni275C \uni275D \uni275E \uni275F \uni2760 
-	\uni2768 \uni2769 \uni276E \uni276F \uni2774 \uni2775 \uni2795 \uni2796 \uni2797 
-	\uni2A2F \u1F4B2 \u1F674 \u1F675 \u1F672 \u1F7B2 \u1F7B0 \u1F7B1 \dollar.alt 
-	\asterisk.alt \zero.zero ];
+	\uni20A9.alt \uni2715 \uni2716 \uni2731 \uni2732 \uni273B \uni2753 \uni2757 
+	\uni2759 \uni275B \uni275C \uni275D \uni275E \uni275F \uni2760 \uni2768 \uni2769 
+	\uni276E \uni276F \uni2774 \uni2775 \uni2795 \uni2796 \uni2797 \uni2A2F \u1F4B2 
+	\u1F672 \u1F674 \u1F675 \u1F7B0 \u1F7B1 \u1F7B2 \dollar.alt \asterisk.alt 
+	\zero.zero \dotmath \exclamdbl \uni203D \uni2042 \uni204B \uni204C \uni204D 
+	\uni204E \uni204F \uni2051 \uni2053 \uni2056 \uni2058 \uni2059 \uni205A \uni205B 
+	\uni205D \uni205E \uni205F \uni2061 \uni2062 \uni2063 \uni2064 \arrowleft 
+	\arrowright \arrowboth \carriagereturn \uni21C4 \uni21C6 \uni21C7 \uni21C9 
+	\arrowdblleft \arrowdblright \arrowdblboth \uni21F4 \uni21F6 \uni21F7 \uni21F8 
+	\uni21F9 \universal \existential \uni2204 \emptyset \increment \gradient 
+	\uni2213 \uni2215 \asteriskmath \uni2218 \uni2219 \uni221B \uni221C \uni2223 
+	\uni2225 \therefore \uni2235 \uni2236 \uni2237 \uni2238 \uni2242 \uni2243 
+	\uni224B \uni2256 \uni2257 \uni225E \equivalence \uni2262 \uni2263 \circleplus 
+	\uni2296 \circlemultiply \uni2298 \uni2299 \uni229A \uni229B \uni229C \uni22C7 
+	\uni27E8 \uni27E9 \uni27EA \uni27EB \uni27F5 \uni27F6 \uni27F8 \uni27F9 \uni2902 
+	\uni2903 \uni2980 \uni29BE \uni29BF \uni29C0 \uni29C1 \openbullet \uni29FE 
+	\uni29FF \uni2AF4 \uni2E18 \uni2E1B \uni2E1E \uni2E28 \uni2E29 \uni2E2A \uni2E2B 
+	\uni2E2C \uni2E2D \uni2E2E \uni2E32 \uni2E33 \uni2E34 \uni2E35 \uni2E36 \uni2E37 
+	\uni2E38 \uni2E39 \uni2E3A \uni2E3B \uni2E3C \uni2E3F \uni2E40 \uni2E41 \uni2E3D ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equivalence" format="1">
+  <advance width="1228"/>
+  <unicode hex="2261"/>
+  <outline>
+    <component base="minus" yOffset="-350"/>
+    <component base="minus" yOffset="350"/>
+    <component base="minus"/>
+  </outline>
+</glyph>
