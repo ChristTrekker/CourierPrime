@@ -615,7 +615,10 @@ feature zero {
 	\uni2903 \uni2980 \uni29BE \uni29BF \uni29C0 \uni29C1 \openbullet \uni29FE 
 	\uni29FF \uni2AF4 \uni2E18 \uni2E1B \uni2E1E \uni2E28 \uni2E29 \uni2E2A \uni2E2B 
 	\uni2E2C \uni2E2D \uni2E2E \uni2E32 \uni2E33 \uni2E34 \uni2E35 \uni2E36 \uni2E37 
-	\uni2E38 \uni2E39 \uni2E3A \uni2E3B \uni2E3C \uni2E3F \uni2E40 \uni2E41 \uni2E3D ];
+	\uni2E38 \uni2E39 \uni2E3A \uni2E3B \uni2E3C \uni2E3F \uni2E40 \uni2E41 \uni2E3D 
+	\uni207A \uni207B \uni207C \uni207D \uni207E \uni208A \uni208B \uni208C \uni208D 
+	\uni208E \uni02BB \uni02BC \uni2409 \uni240A \uni240B \uni240C \uni240D \uni2420 
+	\uni2422 \uni2423 \uni2424 ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
