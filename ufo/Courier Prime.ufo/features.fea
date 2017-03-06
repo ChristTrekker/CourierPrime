@@ -630,7 +630,8 @@ feature zero {
 	\u1D6E2 \u1D6E3 \u1D6E6 \u1D6E7 \u1D6E8 \u1D6EA \u1D6EB \u1D6EE \u1D6F0 \u1D6F2 
 	\u1D6F5 \u1D6F6 \u1D6F8 \u1D70A \u1D71C \u1D71D \u1D720 \u1D721 \u1D722 \u1D724 
 	\u1D725 \u1D728 \u1D72A \u1D72C \u1D72F \u1D730 \u1D732 \u1D744 \ohm \uni2127 
-	\uni2129 \micro ];
+	\uni2129 \micro \uniA7B3 \uniA7B4 \uni0251 \uni0252 \uni0269 \uni019B \uni0278 
+	\uni0196 ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
