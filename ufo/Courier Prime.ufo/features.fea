@@ -618,7 +618,14 @@ feature zero {
 	\uni2E38 \uni2E39 \uni2E3A \uni2E3B \uni2E3C \uni2E3F \uni2E40 \uni2E41 \uni2E3D 
 	\uni207A \uni207B \uni207C \uni207D \uni207E \uni208A \uni208B \uni208C \uni208D 
 	\uni208E \uni02BB \uni02BC \uni2409 \uni240A \uni240B \uni240C \uni240D \uni2420 
-	\uni2422 \uni2423 \uni2424 ];
+	\uni2422 \uni2423 \uni2424 \uni0400 \uni040D \uni0450 \uni045D \uni0472 \uni048C 
+	\uni048D \uni04A4 \uni04C0 \uni04C1 \uni04C2 \uni04CF \uni04D0 \uni04D1 \uni04D2 
+	\uni04D3 \uni04D4 \uni04D5 \uni04D6 \uni04D7 \uni04DA \uni04DB \uni04DC \uni04DD 
+	\uni04DE \uni04DF \uni04E2 \uni04E3 \uni04E4 \uni04E5 \uni04E6 \uni04E7 \uni04EA 
+	\uni04EB \uni04EC \uni04ED \uni04EE \uni04EF \uni04F0 \uni04F1 \uni04F3 \uni04FE 
+	\uni04FF \uni0500 \uni0501 \uni050C \uni0510 \uni0511 \uni051A \uni051B \uni051C 
+	\uni051D \uni1D78 \uniA668 \uniA669 \uniA66A \uniA66B \uniA644 \uniA645 \uniA698 
+	\uniA699 \uniA66C \uniA66D ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
