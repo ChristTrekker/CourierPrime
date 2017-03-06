@@ -618,7 +618,19 @@ feature zero {
 	\uni2E38 \uni2E39 \uni2E3A \uni2E3B \uni2E3C \uni2E3F \uni2E40 \uni2E41 \uni2E3D 
 	\uni207A \uni207B \uni207C \uni207D \uni207E \uni208A \uni208B \uni208C \uni208D 
 	\uni208E \uni02BB \uni02BC \uni2409 \uni240A \uni240B \uni240C \uni240D \uni2420 
-	\uni2422 \uni2423 \uni2424 ];
+	\uni2422 \uni2423 \uni2424 \uni0370 \uni0376 \uni0377 \uni037E \uni037F 
+	\Delta.alt \mu.alt \pi.alt \Alpha \Beta \Gamma \Epsilon \Zeta \Eta \Theta \Iota 
+	\Kappa \Lambda \Mu \Nu \Xi \Omicron \Pi \Rho \Tau \Upsilon \Phi \Chi \alpha \beta 
+	\epsilon \eta \theta \iota \kappa \lambda \omicron \rho \tau \upsilon 
+	\Iotadieresis \Upsilondieresis \alphatonos \epsilontonos \etatonos \iotatonos 
+	\tonos \iotadieresis \upsilondieresis \omicrontonos \upsilontonos \Upsilon1 
+	\phi1 \uni03D8 \uni03DC \uni03F1 \uni03F2 \uni03F3 \uni03F4 \uni03F7 \uni03F8 
+	\uni03F9 \uni03FA \uni03FB \uni03FC \u1D6A8 \u1D6A9 \u1D6AC \u1D6AD \u1D6AE 
+	\u1D6B0 \u1D6B1 \u1D6B3 \u1D6B4 \u1D6B6 \u1D6B8 \u1D6BB \u1D6BC \u1D6BE \u1D6D0 
+	\u1D6E2 \u1D6E3 \u1D6E6 \u1D6E7 \u1D6E8 \u1D6EA \u1D6EB \u1D6EE \u1D6F0 \u1D6F2 
+	\u1D6F5 \u1D6F6 \u1D6F8 \u1D70A \u1D71C \u1D71D \u1D720 \u1D721 \u1D722 \u1D724 
+	\u1D725 \u1D728 \u1D72A \u1D72C \u1D72F \u1D730 \u1D732 \u1D744 \ohm \uni2127 
+	\uni2129 \micro ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
