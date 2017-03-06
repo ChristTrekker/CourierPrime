@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2CAC" format="1">
+  <advance width="1228"/>
+  <unicode hex="2CAC"/>
+  <outline>
+    <component base="Chi"/>
+  </outline>
+</glyph>
