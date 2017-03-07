@@ -620,7 +620,10 @@ feature zero {
 	\uni208E \uni02BB \uni02BC \uni2409 \uni240A \uni240B \uni240C \uni240D \uni2420 
 	\uni2422 \uni2423 \uni2424 \uni0E3F \uni20A2 \uni20A5 \uni20A6 \uni20AD \uni20B1 
 	\uni20B2 \uni20B3 \uni20B4 \uni20B5 \uni20B8 \uni20B9 \uni20BB \uni20BD \uni20BF 
-	\u10196 \u10197 \u10199 ];
+	\u10196 \u10197 \u10199 \onethird \twothirds \uni2160 \uni2161 \uni2162 \uni2164 
+	\uni2169 \uni216C \uni216D \uni216E \uni216F \uni2170 \uni2171 \uni2172 \uni2174 
+	\uni2179 \uni217C \uni217D \uni217E \uni217F \uni2189 \uni218A \uni218B \u10193 
+	\u10194 ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 

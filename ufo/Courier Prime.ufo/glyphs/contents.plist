@@ -2876,5 +2876,55 @@
     <string>u10197.glif</string>
     <key>u10199</key>
     <string>u10199.glif</string>
+    <key>onethird</key>
+    <string>onethird.glif</string>
+    <key>twothirds</key>
+    <string>twothirds.glif</string>
+    <key>uni2160</key>
+    <string>uni2160.glif</string>
+    <key>uni2161</key>
+    <string>uni2161.glif</string>
+    <key>uni2162</key>
+    <string>uni2162.glif</string>
+    <key>uni2164</key>
+    <string>uni2164.glif</string>
+    <key>uni2169</key>
+    <string>uni2169.glif</string>
+    <key>uni216C</key>
+    <string>uni216C_.glif</string>
+    <key>uni216D</key>
+    <string>uni216D_.glif</string>
+    <key>uni216E</key>
+    <string>uni216E_.glif</string>
+    <key>uni216F</key>
+    <string>uni216F_.glif</string>
+    <key>uni2170</key>
+    <string>uni2170.glif</string>
+    <key>uni2171</key>
+    <string>uni2171.glif</string>
+    <key>uni2172</key>
+    <string>uni2172.glif</string>
+    <key>uni2174</key>
+    <string>uni2174.glif</string>
+    <key>uni2179</key>
+    <string>uni2179.glif</string>
+    <key>uni217C</key>
+    <string>uni217C_.glif</string>
+    <key>uni217D</key>
+    <string>uni217D_.glif</string>
+    <key>uni217E</key>
+    <string>uni217E_.glif</string>
+    <key>uni217F</key>
+    <string>uni217F_.glif</string>
+    <key>uni2189</key>
+    <string>uni2189.glif</string>
+    <key>uni218A</key>
+    <string>uni218A_.glif</string>
+    <key>uni218B</key>
+    <string>uni218B_.glif</string>
+    <key>u10193</key>
+    <string>u10193.glif</string>
+    <key>u10194</key>
+    <string>u10194.glif</string>
   </dict>
 </plist>
