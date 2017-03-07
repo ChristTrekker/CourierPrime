@@ -623,7 +623,13 @@ feature zero {
 	\u10196 \u10197 \u10199 \onethird \twothirds \uni2160 \uni2161 \uni2162 \uni2164 
 	\uni2169 \uni216C \uni216D \uni216E \uni216F \uni2170 \uni2171 \uni2172 \uni2174 
 	\uni2179 \uni217C \uni217D \uni217E \uni217F \uni2189 \uni218A \uni218B \u10193 
-	\u10194 ];
+	\u10194 \uni2104 \uni2105 \uni2108 \uni210F \uni2117 \prescription \uni212A 
+	\uni212B \uni2132 \uni2139 \uni213A \uni2141 \uni2142 \uni2143 \uni2144 \uni214A 
+	\uni214B \uni214E \uni2460 \uni2461 \uni2462 \uni2463 \uni2464 \uni2465 \uni2466 
+	\uni2467 \uni2468 \uni24EA \uni24B6 \uni24B7 \uni24B8 \uni24B9 \uni24BA \uni24BB 
+	\uni24BC \uni24BD \uni24BE \uni24BF \uni24C0 \uni24C1 \uni24C2 \uni24C3 \uni24C4 
+	\uni24C5 \uni24C6 \uni24C7 \uni24C8 \uni24C9 \uni24CA \uni24CB \uni24CC \uni24CD 
+	\uni24CE \uni24CF \u1D18C \u1D18D \u1D18E \u1D18F \u1D190 \u1D191 \u1F12F ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
