@@ -629,7 +629,10 @@ feature zero {
 	\uni2467 \uni2468 \uni24EA \uni24B6 \uni24B7 \uni24B8 \uni24B9 \uni24BA \uni24BB 
 	\uni24BC \uni24BD \uni24BE \uni24BF \uni24C0 \uni24C1 \uni24C2 \uni24C3 \uni24C4 
 	\uni24C5 \uni24C6 \uni24C7 \uni24C8 \uni24C9 \uni24CA \uni24CB \uni24CC \uni24CD 
-	\uni24CE \uni24CF \u1D18C \u1D18D \u1D18E \u1D18F \u1D190 \u1D191 \u1F12F ];
+	\uni24CE \uni24CF \u1D18C \u1D18D \u1D18E \u1D18F \u1D190 \u1D191 \u1F12F 
+	\uni2613 \uni2627 \uni2629 \uni271D \uni2726 \uni274C \uni2780 \uni2781 \uni2782 
+	\uni2783 \uni2784 \uni2785 \uni2786 \uni2787 \uni2788 \uni2B55 \u1F4A4 \u1F4B5 
+	\u1F522 \u1F540 \u1F542 \u1F547 \u1F5D1 \u1F7AC \uni2629.alt ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 

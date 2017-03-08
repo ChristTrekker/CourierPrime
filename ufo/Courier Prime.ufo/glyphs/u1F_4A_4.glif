@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1F4A4" format="1">
+  <advance width="1228"/>
+  <unicode hex="1F4A4"/>
+  <outline>
+    <component base="z.superior" xScale="0.834961" yScale="0.834961" xOffset="101" yOffset="-78"/>
+    <component base="z.superior" xScale="0.834961" yScale="0.834961" xOffset="427" yOffset="-796"/>
+    <component base="z.superior" xScale="0.834961" yScale="0.834961" xOffset="-225" yOffset="641"/>
+  </outline>
+</glyph>

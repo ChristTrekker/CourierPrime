@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="u1F522" format="1">
+  <advance width="1228"/>
+  <unicode hex="1F522"/>
+  <outline>
+    <component base="foursuperior" xScale="0.835022" yScale="0.835022" xOffset="428" yOffset="-619"/>
+    <component base="onesuperior" xScale="0.834656" yScale="0.834717" xOffset="-262" yOffset="281"/>
+    <component base="twosuperior" xScale="0.835022" yScale="0.835022" xOffset="429" yOffset="281"/>
+    <component base="threesuperior" xScale="0.835022" yScale="0.835022" xOffset="-231" yOffset="-615"/>
+  </outline>
+</glyph>
