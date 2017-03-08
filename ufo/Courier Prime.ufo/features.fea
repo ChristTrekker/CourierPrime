@@ -632,7 +632,47 @@ feature zero {
 	\uni24CE \uni24CF \u1D18C \u1D18D \u1D18E \u1D18F \u1D190 \u1D191 \u1F12F 
 	\uni2613 \uni2627 \uni2629 \uni271D \uni2726 \uni274C \uni2780 \uni2781 \uni2782 
 	\uni2783 \uni2784 \uni2785 \uni2786 \uni2787 \uni2788 \uni2B55 \u1F4A4 \u1F4B5 
-	\u1F522 \u1F540 \u1F542 \u1F547 \u1F5D1 \u1F7AC \uni2629.alt ];
+	\u1F522 \u1F540 \u1F542 \u1F547 \u1F5D1 \u1F7AC \uni2629.alt \uni0180 \uni0181 
+	\uni0182 \uni0183 \uni0186 \uni0187 \uni0188 \uni0189 \uni018A \uni018B \uni018C 
+	\uni0321 \uni0322 \uni018E \uni018F \uni0190 \uni0193 \uni0195 \uni0197 \uni019A 
+	\uni019C \uni019D \uni019E \uni019F \uni01A4 \uni01A5 \uni01A6 \uni01A7 \uni01A8 
+	\uni01AC \uni01AD \uni01AE \uni01B5 \uni01B6 \uni01BB \uni01BC \uni01BE \uni01BF 
+	\uni01C0 \uni01C1 \uni01C2 \uni01C3 \uni01CE \uni01D2 \uni01DD \uni01E2 \uni01E3 
+	\uni01E4 \uni01E5 \Gcaron \gcaron \uni01E8 \uni01E9 \uni01F0 \uni01F4 \uni01F5 
+	\uni01F6 \uni01F7 \uni01F8 \uni01F9 \AEacute \aeacute \uni0220 \uni0224 \uni0225 
+	\uni0226 \uni0227 \uni023A \uni023B \uni023C \uni023D \uni023E \uni0241 \uni0242 
+	\uni0243 \uni0244 \uni0245 \uni0246 \uni0247 \uni0248 \uni0249 \uni024A \uni024B 
+	\uni024C \uni024D \uni024E \uni024F \uni0250 \uni0253 \uni0254 \uni0256 \uni0257 
+	\uni0258 \uni0259 \uni025B \uni025C \uni025F \uni0260 \uni0261 \uni0262 \uni0265 
+	\uni0268 \uni026A \uni026B \uni026D \uni026F \uni0270 \uni0271 \uni0272 \uni0273 
+	\uni0274 \uni0275 \uni0276 \uni0279 \uni027A \uni027C \uni027D \uni0280 \uni0281 
+	\uni0282 \uni0283 \uni0284 \uni0287 \uni0288 \uni0289 \uni028C \uni028D \uni028E 
+	\uni028F \uni0290 \uni0292 \uni0294 \uni0295 \uni0296 \uni0298 \uni0299 \uni029B 
+	\uni029C \uni029E \uni029F \uni02A0 \uni02AC \uni02AD \uni02B0 \uni02B2 \uni02B3 
+	\uni02B4 \uni02B7 \uni02B8 \uni02E1 \uni02E2 \uni02E3 \uni1D00 \uni1D01 \uni1D02 
+	\uni1D04 \uni1D05 \uni1D07 \uni1D08 \uni1D09 \uni1D0A \uni1D0B \uni1D0D \uni1D0F 
+	\uni1D10 \uni1D14 \uni1D18 \uni1D19 \uni1D1A \uni1D1B \uni1D1C \uni1D20 \uni1D21 
+	\uni1D22 \uni1D29 \uni1D2C \uni1D2D \uni1D2E \uni1D30 \uni1D31 \uni1D32 \uni1D33 
+	\uni1D34 \uni1D35 \uni1D36 \uni1D37 \uni1D38 \uni1D39 \uni1D3A \uni1D3C \uni1D3E 
+	\uni1D3F \uni1D40 \uni1D41 \uni1D42 \uni1D43 \uni1D44 \uni1D46 \uni1D47 \uni1D48 
+	\uni1D49 \uni1D4A \uni1D4D \uni1D4E \uni1D4F \uni1D50 \uni1D52 \uni1D53 \uni1D56 
+	\uni1D57 \uni1D58 \uni1D5A \uni1D5B \uni1D3B \uni1D3D \uni1D45 \uni1D4B \uni1D4C 
+	\uni1D51 \uni1D54 \uni1D55 \uni1D59 \uni1D5C \uni1D5D \uni1D5E \uni1D5F \uni1D60 
+	\uni1D61 \uni1D62 \uni1D63 \uni1D64 \uni1D65 \uni1D66 \uni1D6C \uni1D6D \uni1D6E 
+	\uni1D6F \uni1D70 \uni1D71 \uni1D72 \uni1D74 \uni1D75 \uni1D76 \uni1D77 \uni1D7D 
+	\uni1D8F \uni1D90 \uni1D92 \uni1D93 \uni1D95 \uni1D96 \uni1D98 \uni1D99 \uni1D9C 
+	\uni1DA0 \uni1DA1 \uni1DA2 \uni1DA3 \uni1DBA \uni1DBB \uni2C60 \uni2C61 \uni2C62 
+	\uni2C63 \uni2C65 \uni2C66 \uni2C67 \uni2C68 \uni2C69 \uni2C6A \uni2C6B \uni2C6C 
+	\uni2C6D \uni2C6F \uni2C70 \uni2C75 \uni2C7D \uni2C7B \uni2C7C \uni2C7F \uniA726 
+	\uniA727 \uniA72A \uniA72B \uniA730 \uniA731 \uniA732 \uniA735 \uniA740 \uniA741 
+	\uniA748 \uniA749 \uniA74A \uniA74B \uniA74E \uniA74F \uniA750 \uniA751 \uniA752 
+	\uniA757 \uniA758 \uniA759 \uniA75E \uniA75F \uniA765 \uniA767 \uniA768 \uniA76A 
+	\uniA76B \uniA779 \uniA77B \uniA77C \uniA77D \uniA780 \uniA781 \uniA782 \uniA783 
+	\uniA784 \uniA785 \uniA787 \uniA789 \uniA78A \uniA78D \uniA790 \uniA791 \uniA792 
+	\uniA793 \uniA796 \uniA799 \uniA7A0 \uniA7A1 \uniA7A4 \uniA7A5 \uniA7A8 \uniA7A9 
+	\uniA7AA \uniA7AB \uniA7B0 \uniA7B1 \uniA7F8 \uniA7F9 \uniA7FA \uniA7FB \uniA7FC 
+	\uniA7FD \uniA7FE \uniAB31 \uniAB33 \uniAB34 \uniAB35 \uniAB38 \uniAB39 \uniAB40 
+	\uniAB41 \uniAB42 ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 

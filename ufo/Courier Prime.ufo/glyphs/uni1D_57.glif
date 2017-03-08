@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1D57" format="1">
+  <advance width="1228"/>
+  <unicode hex="1D57"/>
+  <outline>
+    <component base="t.superior"/>
+  </outline>
+</glyph>
