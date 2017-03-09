@@ -656,23 +656,25 @@ feature zero {
 	\uni1D34 \uni1D35 \uni1D36 \uni1D37 \uni1D38 \uni1D39 \uni1D3A \uni1D3C \uni1D3E 
 	\uni1D3F \uni1D40 \uni1D41 \uni1D42 \uni1D43 \uni1D44 \uni1D46 \uni1D47 \uni1D48 
 	\uni1D49 \uni1D4A \uni1D4D \uni1D4E \uni1D4F \uni1D50 \uni1D52 \uni1D53 \uni1D56 
-	\uni1D57 \uni1D58 \uni1D5A \uni1D5B \uni1D3B \uni1D3D \uni1D45 \uni1D4B \uni1D4C 
-	\uni1D51 \uni1D54 \uni1D55 \uni1D59 \uni1D5C \uni1D5D \uni1D5E \uni1D5F \uni1D60 
-	\uni1D61 \uni1D62 \uni1D63 \uni1D64 \uni1D65 \uni1D66 \uni1D6C \uni1D6D \uni1D6E 
-	\uni1D6F \uni1D70 \uni1D71 \uni1D72 \uni1D74 \uni1D75 \uni1D76 \uni1D77 \uni1D7D 
-	\uni1D8F \uni1D90 \uni1D92 \uni1D93 \uni1D95 \uni1D96 \uni1D98 \uni1D99 \uni1D9C 
-	\uni1DA0 \uni1DA1 \uni1DA2 \uni1DA3 \uni1DBA \uni1DBB \uni2C60 \uni2C61 \uni2C62 
-	\uni2C63 \uni2C65 \uni2C66 \uni2C67 \uni2C68 \uni2C69 \uni2C6A \uni2C6B \uni2C6C 
-	\uni2C6D \uni2C6F \uni2C70 \uni2C75 \uni2C7D \uni2C7B \uni2C7C \uni2C7F \uniA726 
-	\uniA727 \uniA72A \uniA72B \uniA730 \uniA731 \uniA732 \uniA735 \uniA740 \uniA741 
-	\uniA748 \uniA749 \uniA74A \uniA74B \uniA74E \uniA74F \uniA750 \uniA751 \uniA752 
-	\uniA757 \uniA758 \uniA759 \uniA75E \uniA75F \uniA765 \uniA767 \uniA768 \uniA76A 
-	\uniA76B \uniA779 \uniA77B \uniA77C \uniA77D \uniA780 \uniA781 \uniA782 \uniA783 
-	\uniA784 \uniA785 \uniA787 \uniA789 \uniA78A \uniA78D \uniA790 \uniA791 \uniA792 
-	\uniA793 \uniA796 \uniA799 \uniA7A0 \uniA7A1 \uniA7A4 \uniA7A5 \uniA7A8 \uniA7A9 
-	\uniA7AA \uniA7AB \uniA7B0 \uniA7B1 \uniA7F8 \uniA7F9 \uniA7FA \uniA7FB \uniA7FC 
-	\uniA7FD \uniA7FE \uniAB31 \uniAB33 \uniAB34 \uniAB35 \uniAB38 \uniAB39 \uniAB40 
-	\uniAB41 \uniAB42 ];
+	\uni1D57 \uni1D58 \uni1D5A \uni1D5B \uni1D3B \uni1D62 \uni1D63 \uni1D64 \uni1D65 
+	\uni1D6C \uni1D6D \uni1D6E \uni1D6F \uni1D70 \uni1D71 \uni1D72 \uni1D74 \uni1D75 
+	\uni1D76 \uni1D77 \uni1D7D \uni1D8F \uni1D90 \uni1D92 \uni1D93 \uni1D95 \uni1D96 
+	\uni1D98 \uni1D99 \uni1D9C \uni1DA0 \uni1DA2 \uni1DA3 \uni1DBA \uni1DBB \uni2C60 
+	\uni2C61 \uni2C62 \uni2C63 \uni2C65 \uni2C66 \uni2C67 \uni2C68 \uni2C69 \uni2C6A 
+	\uni2C6B \uni2C6C \uni2C6D \uni2C6F \uni2C70 \uni2C75 \uni2C7D \uni2C7B \uni2C7C 
+	\uni2C7F \uniA726 \uniA727 \uniA72A \uniA72B \uniA730 \uniA731 \uniA732 \uniA735 
+	\uniA740 \uniA741 \uniA748 \uniA749 \uniA74A \uniA74B \uniA74E \uniA74F \uniA750 
+	\uniA751 \uniA752 \uniA757 \uniA758 \uniA759 \uniA75E \uniA75F \uniA765 \uniA767 
+	\uniA768 \uniA76A \uniA76B \uniA779 \uniA77B \uniA77C \uniA77D \uniA780 \uniA781 
+	\uniA782 \uniA783 \uniA784 \uniA785 \uniA787 \uniA789 \uniA78A \uniA78D \uniA790 
+	\uniA791 \uniA792 \uniA793 \uniA796 \uniA799 \uniA7A0 \uniA7A1 \uniA7A4 \uniA7A5 
+	\uniA7A8 \uniA7A9 \uniA7AA \uniA7AB \uniA7B0 \uniA7B1 \uniA7F8 \uniA7F9 \uniA7FA 
+	\uniA7FB \uniA7FC \uniA7FD \uniA7FE \uniAB31 \uniAB33 \uniAB34 \uniAB35 \uniAB38 
+	\uniAB39 \uniAB40 \uniAB41 \uniAB42 \uni2130 \uni2107 \uni210A \uni210B \uni2110 
+	\uni2112 \weierstrass \uni212F \uni2134 \u1D49C \u1D4A2 \u1D4A5 \u1D4A6 \u1D4AA 
+	\u1D4AB \u1D4AC \u1D4B5 \u1D4B6 \u1D4B7 \u1D4B8 \u1D4B9 \u1D4BB \u1D4BD \u1D4BE 
+	\u1D4BF \u1D4C0 \u1D4C1 \u1D4C2 \u1D4C3 \u1D4C5 \u1D4C6 \u1D4C7 \u1D4C8 \u1D4C9 
+	\u1D4CA \u1D4CB \u1D4CC \u1D4CD \u1D4CE \u1D4CF \u1D4BA \u1D4BC \u1D4C4 ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
